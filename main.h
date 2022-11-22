@@ -1,5 +1,5 @@
-#ifndef PROTOTYPE_H
-#define PROTOTYPE_H
+#ifndef MAIN_H
+#define MAIN_H
 
 #include <stdarg.h>
 
@@ -18,6 +18,12 @@ int print_hex_base(va_list arg, char _case);
 int print_hex(va_list arg);
 int print_HEX(va_list arg);
 int print_STR (va_list arg);
+
+/**
+ * struct identifierStruct - structure definition of a printTypeStruct
+ * @indentifier: type
+ * @printer: function to print
+ */
 
 typedef struct identifierStruct
 {

@@ -1,5 +1,5 @@
-#ifndef PROTOTYPE_H
-#define PROTOTYPE_H
+#ifndef MAIN_H
+#define MAIN_H
 
 #include <stdarg.h>
 
